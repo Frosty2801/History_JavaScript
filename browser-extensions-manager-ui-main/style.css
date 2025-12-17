@@ -28,11 +28,53 @@ header {
   margin: 20px;
   position: relative;
   border-radius: 8px;
+}
+
+.dark-mode {
+  margin: 20px;
+  position: relative;
+  border-radius: 8px;
   background: hsla(225, 23%, 24%, 0);
 }
 
+.dark-mode:focus {
+  border: 2px solid #ff5a5a;
+  outline: none;
+}
+
+.head-nav {
+  background: hsla(227, 9%, 62%, 0);
+  height: 4rem;
+  width: 63rem;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extensions {
+  height: 5rem;
+  width: 80rem;
+  display: flex;
+}
+
+.ext-btn {
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  background: hsl(225, 23%, 24%);
+  color: #fff;
+  gap: 10px;
+}
+
+.ext-list {
+  display: flex;
+  margin: 8px;
+}
+
 h1 {
-  
+  display: flex;
+  margin: 18px;
 }
 
 .card-container {
@@ -74,14 +116,14 @@ h2, p {
   margin-top: 2rem;
 }
 
-div button {
+.rmv-btn {
   border-radius: 30px;
-  padding: 12px 20px;
+  padding: 9px 20px;
   background: #332d2d00;
   color: #fff;
 }
 
-button:hover {
+.rmv-btn:hover {
   background-color: #ff5a5a;
   transition: 0.5s;
 }
