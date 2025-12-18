@@ -61,6 +61,24 @@ header {
   box-shadow: 0 5px 15px;
 }
 
+.container-hero {
+    border-radius: 2.5rem;
+    background: #b1e1e9;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+
+}
+
+.container-hero h1{
+    text-align: center;
+    
+}
+
+.imagen {
+    margin-top: 20px;
+    text-align: center;
+}
 
 
 
