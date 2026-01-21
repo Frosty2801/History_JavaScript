@@ -8,21 +8,30 @@
   
 - callbacks: Un callback es una función que se pasa como argumento a otra función y se ejecuta después o cuando ocurre algo. una función que otra función llama
 
+- promise:
+
+- await: 
+
+- async:
+
+# Manejo de errores
+  - try/catch: 
+
 # Tipos de datos
 
-    # Primitivos
-    string, number, boolean, null, undefined, symbol
+  # Primitivos
+  string, number, boolean, null, undefined, symbol
 
-    # No primitivos:
-    - object: Un objeto es una estructura que permite guardar información relacionada usando siempre tienen que lleavar pares clave–valor. Representa por {}
+  # No primitivos:
+  - object: Un objeto es una estructura que permite guardar información relacionada usando siempre tienen que lleavar pares clave–valor. Representa por {}
       
-    - array: es una estructura de datos que almacena una colección ordenada de elementos (números, textos, objetos, etc.) bajo un mismo nombreRepresentado por []
+  - array: es una estructura de datos que almacena una colección ordenada de elementos (números, textos, objetos, etc.) bajo un mismo nombreRepresentado por []
 
-    - set: Evita duplicados
+  - set: Evita duplicados
       
-    - Map(Mayuscula): Relacionar datos (clave,valor),es una estructura de datos que sirve para guardar pares clave–valor.
+  - Map(Mayuscula): Relacionar datos (clave,valor),es una estructura de datos que sirve para guardar pares clave–valor.
       
-    - function:  Representado por ()
+  - function:  Representado por ()
 
 # Operadores
 
@@ -39,95 +48,94 @@ Conversión de tipos (casting)
 ## 🔀 Control de flujo
 
   # Condicionales
+  
+  - if, else, else if
+  
+  - switch
 
-- if, else, else if
+  # Bucles
 
-- switch
-
-# Bucles
-
-- for
-
-- while
-
-- do...while
-
-- for...of: Recorre valores de map, arrays, strings, sets
-
-- for...in: recorre claves/indices Las propiedades de un objeto, Los índices de un array
-
-break y continue
+  - for
+  
+  - while
+  
+  - do...while
+  
+  - for...of: Recorre valores de map, arrays, strings, sets
+  
+  - for...in: recorre claves/indices Las propiedades de un objeto, Los índices de un array
+  
+  break y continue
 
 ## 📦 Funciones
-
-- Declaración de funciones
-
-- Funciones con parámetros y retorno
-
-- Funciones anónimas
-
-- Arrow functions (=>)
-
-- Scope (global, local, bloque)
-
-- Closures (concepto clave)
-
-- Funciones callback
+  
+  - Declaración de funciones
+  
+  - Funciones con parámetros y retorno
+  
+  - Funciones anónimas
+  
+  - Arrow functions (=>)
+  
+  - Scope (global, local, bloque)
+  
+  - Closures (concepto clave)
+  
+  - Funciones callback
 
 ## 📚 Arrays
 
-- Creación de arrays
-
-- Acceso a elementos
+  - Creación de arrays
+  
+  - Acceso a elementos
 
 # Métodos importantes
-
-- MUTABLES: Son métodos que MODIFICAN el arreglo u objeto original.
-- INMUTABLES: Son métodos que NO modifican el dato original, sino que devuelven uno nuevo.
+  - MUTABLES: Son métodos que MODIFICAN el arreglo u objeto original.
+  - INMUTABLES: Son métodos que NO modifican el dato original, sino que devuelven uno nuevo.
+    
+  - for each: recorre arreglos de datos, recorre maps, arrays, sets
   
-- for each: recorre arreglos de datos, recorre maps, arrays, sets
-
-- push, pop, shift, unshift
-
-- map, filter, reduce
-
-- find, includes, sort
-
-Iteración de arrays
+  - push, pop, shift, unshift
+  
+  - map, filter, reduce
+  
+  - find, includes, sort
+  
+  Iteración de arrays
 
 ## 🧩 Objetos
 
-- Creación de objetos
-
-- Propiedades y métodos
-
-- Notación punto vs corchetes
-
-- this
-
-- Desestructuración de objetos
-
-- Objetos anidados
+  - Creación de objetos
+  
+  - Propiedades y métodos
+  
+  - Notación punto vs corchetes
+  
+  - this
+  
+  - Desestructuración de objetos
+  
+  - Objetos anidados
 
 ## 🌐 DOM (Document Object Model)
 
-- ¿Qué es el DOM?
+  - ¿Qué es el DOM?: Es la representacion de lo que hace un navegador con el html, lo representa en forma de arbol. Se crea al momento de abrir una pagina.
 
 # Selección de elementos
 
-- getElementById
-
-- querySelector / querySelectorAll
-
-- Manipulación del DOM
-
-- textContent
-
-- innerHTML
-
-- classList
-
-- style
+  - getElementById: obtiene un id especifico del html 
+  
+  - querySelector / querySelectorAll
+  
+  - Manipulación del DOM
+  
+  - textContent
+  
+  - innerHTML
+  
+  - classList
+  
+  - style
 
 Crear y eliminar elementos
 
@@ -169,7 +177,7 @@ Crear y eliminar elementos
 
 - window
 
-- document
+- document: Llama a todo el html.
 
 - navigator
 
