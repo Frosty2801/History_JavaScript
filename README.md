@@ -3,12 +3,15 @@
 - ¿Qué es JavaScript y para qué sirve?
 
 - Variables (var, let, const)
-- closures:
+  
+- closures: Un closure ocurre cuando una función recuerda variables de su contexto externo, incluso después de que ese contexto ya terminó. Una funcion que recuerda su entorno
+  
 - callbacks: Un callback es una función que se pasa como argumento a otra función y se ejecuta después o cuando ocurre algo. una función que otra función llama
 
 # Tipos de datos
 
-  - Primitivos: string, number, boolean, null, undefined, symbol
+    # Primitivos
+    string, number, boolean, null, undefined, symbol
 
     # No primitivos:
     - object: Un objeto es una estructura que permite guardar información relacionada usando siempre tienen que lleavar pares clave–valor. Representa por {}
