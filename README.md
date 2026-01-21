@@ -8,7 +8,16 @@
 
   - Primitivos: string, number, boolean, null, undefined, symbol
 
-  - No primitivos: object, array, function
+    # No primitivos:
+    - object: Un objeto es una estructura que permite guardar información relacionada usando siempre tienen que lleavar pares clave–valor. Representa por {}
+      
+    - array: es una estructura de datos que almacena una colección ordenada de elementos (números, textos, objetos, etc.) bajo un mismo nombreRepresentado por []
+
+    - set: Evita duplicados
+      
+    - Map(Mayuscula): Relacionar datos (clave,valor),es una estructura de datos que sirve para guardar pares clave–valor.
+      
+    - function:  Representado por ()
 
 # Operadores
 
@@ -24,7 +33,7 @@ Conversión de tipos (casting)
 
 ## 🔀 Control de flujo
 
-# Condicionales
+  # Condicionales
 
 - if, else, else if
 
@@ -38,9 +47,9 @@ Conversión de tipos (casting)
 
 - do...while
 
-- for...of
+- for...of: Recorre valores de map, arrays, strings, sets
 
-- for...in
+- for...in: recorre claves/indices Las propiedades de un objeto, Los índices de un array
 
 break y continue
 
@@ -67,6 +76,11 @@ break y continue
 - Acceso a elementos
 
 # Métodos importantes
+
+- MUTABLES: Son métodos que MODIFICAN el arreglo u objeto original.
+- INMUTABLES: Son métodos que NO modifican el dato original, sino que devuelven uno nuevo.
+  
+- for each: recorre arreglos de datos, recorre maps, arrays, sets
 
 - push, pop, shift, unshift
 
