@@ -3,6 +3,8 @@
 - ¿Qué es JavaScript y para qué sirve?
 
 - Variables (var, let, const)
+- closures:
+- callbacks: Un callback es una función que se pasa como argumento a otra función y se ejecuta después o cuando ocurre algo. una función que otra función llama
 
 # Tipos de datos
 
